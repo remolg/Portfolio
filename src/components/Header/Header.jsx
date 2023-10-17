@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import "./header.css"
 
 export const Header = () => {
-    const [Toogle, showMenu] = useState(true)
+    const [Toogle, showMenu] = useState(false)
 
 
     return (
@@ -11,7 +11,7 @@ export const Header = () => {
                 <a href="index.html" className="nav__logo">REMOLG</a>
 
                 <div className={Toogle ? "nav__menu show-menu" : "nav__menu"}>
-                    <ul className='nav__list grid'>
+                    <ul className='nav__list'>
                         <li className="nav__item">
                             <a href="#home" className='nav__link active-link'>
                                 <i className='uil uil-estate nav__icon'></i>
@@ -47,10 +47,11 @@ export const Header = () => {
                     <i className='uil uil-times nav__close'
                         onClick={() => showMenu(!Toogle)}
                     ></i>
+                </div>
 
-                    <div className="nav__toggle" onClick={() => showMenu(!Toogle)}>
-                        <i className='uil uil-apps'></i>
-                    </div>
+
+                <div className="nav__toggle" onClick={() => showMenu(!Toogle)}>
+                    <i className='uil uil-apps'></i>
                 </div>
             </nav>
         </header>

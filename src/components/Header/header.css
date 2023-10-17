@@ -41,12 +41,13 @@
     display: none;
 }
 
+
 .active-link,
 .nav__link:hover {
     color: var(--title-color-dark);
 }
 
-/*=============== BREAKPOINTS ===============*/
+
 
 @media screen and (max-width: 768px) {
     .header {
