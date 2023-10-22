@@ -1,4 +1,5 @@
 .contact__container {
+    display: grid;
     grid-template-columns: repeat(2, max-content);
     justify-content: center;
     column-gap: 6rem;
@@ -141,5 +142,3 @@
         width: 100%;
     }
 }
-
-@media screen and (max-width: 350px) {}
