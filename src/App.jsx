@@ -4,8 +4,9 @@ import { Home } from './components/Home/Home'
 import { About } from './components/about/About'
 import { Skills } from './components/skills/Skills'
 import { Contact } from './components/contact/Contact'
-import './App.css'
 import { Footer } from './components/footer/Footer'
+import { Scrollup } from './components/scrollup/Scrollup'
+import './App.css'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -18,8 +19,9 @@ function App() {
         <About />
         <Skills />
         <Contact />
-        <Footer />
       </main>
+      <Footer />
+      <Scrollup />
     </>
   )
 }
