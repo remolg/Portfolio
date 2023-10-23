@@ -1,7 +1,7 @@
 import React from 'react'
 import './about.css'
 import AboutImg from '../../assets/about.jpg'
-import CV from '../../assets/John-Cv.pdf'
+import CV from '../../assets/cv.pdf'
 import { Files } from './Abouticons'
 import { Info } from './Info'
 
@@ -17,7 +17,7 @@ export const About = () => {
                 <div className="about__data">
                     <Info />
                     <p className="about__description">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis consectetur nam quis ipsum. Repudiandae aliquid explicabo sequi, a veritatis quod!
+                        As a junior frontend developer, I possess an impressive skill set that includes HTML, CSS, JavaScript, React, Tailwind. I excel in designing and maintaining responsive websites that provide a seamless user experience.I am also a team player who thrives in collaborating with cross-functional teams to produce outstanding web applications.
                     </p>
                     <a download='' href={CV} className="button button--flex">
                         Download CV  <Files />

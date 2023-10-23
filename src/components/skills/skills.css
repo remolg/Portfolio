@@ -1,4 +1,5 @@
 .skills__container {
+    grid-template-columns: repeat(2, 1fr);
     column-gap: 3rem;
     justify-content: center;
 }
@@ -23,7 +24,7 @@
 }
 
 .skills__group {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     align-items: flex-start;
     row-gap: 1rem;
 }
@@ -49,6 +50,10 @@
     .skills__container {
         grid-template-columns: max-content;
         row-gap: 2rem;
+    }
+
+    .skills__group {
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 

@@ -9,7 +9,7 @@ export const Data = () => {
                 <Hand />
             </h1>
             <h3 className="home__subtitle">Jr. Front-end Developer</h3>
-            <p className="home__description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi vero totam asperiores, magni libero adipisci..</p>
+            <p className="home__description">Hi, I'm Sadık Ahmet Özdemir. <br /> A passionate Front-end Developer based in Türkiye, Istanbul</p>
 
             <a href="#contact" className="button button--flex">
                 say hello

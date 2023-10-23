@@ -1,6 +1,7 @@
 import React from 'react'
 import './skills.css'
 import { Frontend } from './Frontend'
+import { Others } from './Others'
 
 export const Skills = () => {
     return (
@@ -9,6 +10,7 @@ export const Skills = () => {
             <span className="section__subtitle">My technical level</span>
             <div className="skills__container container grid">
                 <Frontend />
+                <Others />
             </div>
         </section>
     )
