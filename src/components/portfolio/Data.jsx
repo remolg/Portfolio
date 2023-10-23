@@ -2,6 +2,8 @@ import Work1 from '../../assets/work1.png';
 import Work2 from '../../assets/work2.jpg';
 import Work3 from '../../assets/work3.png';
 import Work4 from '../../assets/work4.png';
+import Work5 from '../../assets/work5.png';
+import Work6 from '../../assets/work6.jpg';
 
 export const projectsData = [
     {
@@ -35,6 +37,22 @@ export const projectsData = [
         category: 'javascript',
         github: 'https://github.com/remolg/Youtube-Clone',
         link: 'https://remolg-video-app.netlify.app/'
+    },
+    {
+        id: 5,
+        image: Work5,
+        title: 'Restourant Website',
+        category: 'css',
+        github: 'https://github.com/remolg/Restoran-Web-Sitesi',
+        link: 'https://sadikahmetozdemir.me/projects/Restaurant%20Application/index.html'
+    },
+    {
+        id: 6,
+        image: Work6,
+        title: 'Thechnology Website',
+        category: 'css',
+        github: 'https://github.com/remolg/Teknoloji-Web-Sitesi-iki',
+        link: 'https://sadikahmetozdemir.me/projects/Technology-Website-Two/index.html'
     },
 
 ];
