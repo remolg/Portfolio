@@ -1,7 +1,7 @@
 
 # Portfolio
 
-![Uygulama Ekran Görüntüsü](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![Alt text](src/assets/portfiao.png)
 
 ## Information
 
