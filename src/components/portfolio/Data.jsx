@@ -4,8 +4,25 @@ import Work3 from '../../assets/work3.png';
 import Work4 from '../../assets/work4.png';
 import Work5 from '../../assets/work5.png';
 import Work6 from '../../assets/work6.jpg';
+import Work7 from '../../assets/work7.png';
 
 export const projectsData = [
+    {
+        id: 7,
+        image: Work7,
+        title: 'Disney Plus Clone',
+        category: 'javascript',
+        github: 'https://github.com/remolg/Disney-Clone',
+        link: 'https://remolg-disneyplus-clone.netlify.app/'
+    },
+    {
+        id: 4,
+        image: Work4,
+        title: 'Youtube Clone',
+        category: 'javascript',
+        github: 'https://github.com/remolg/Youtube-Clone',
+        link: 'https://remolg-video-app.netlify.app/'
+    },
     {
         id: 1,
         image: Work1,
@@ -29,14 +46,6 @@ export const projectsData = [
         category: 'javascript',
         github: 'https://github.com/remolg/Todolist',
         link: 'https://remolgtodolist.netlify.app/'
-    },
-    {
-        id: 4,
-        image: Work4,
-        title: 'Youtube Clone',
-        category: 'javascript',
-        github: 'https://github.com/remolg/Youtube-Clone',
-        link: 'https://remolg-video-app.netlify.app/'
     },
     {
         id: 5,
