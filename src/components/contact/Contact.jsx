@@ -47,15 +47,15 @@ export const Contact = () => {
                     <form ref={form} onSubmit={sendEmail} className="contact__form">
                         <div className="contact__form-div">
                             <label className="contact__form-tag">Name</label>
-                            <input type="text" name='name' className='contact__form-input' placeholder='Insert your name' />
+                            <input type="text" name='name' className='contact__form-input' placeholder='Insert your name' required />
                         </div>
                         <div className="contact__form-div">
                             <label className="contact__form-tag">Mail</label>
-                            <input type="email" name='email' className='contact__form-input' placeholder='Insert your email' />
+                            <input type="email" name='email' className='contact__form-input' placeholder='Insert your email' required />
                         </div>
                         <div className="contact__form-div contact__form-area">
                             <label className="contact__form-tag">Project</label>
-                            <textarea name="project" cols="30" rows="10" className='contact__form-input' placeholder='Write your project'></textarea>
+                            <textarea name="project" cols="30" rows="10" className='contact__form-input' placeholder='Write your project' required></textarea>
                         </div>
 
                         <button className="button button--flex">
