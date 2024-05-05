@@ -8,7 +8,7 @@ export const Data = () => {
                 Sadık Ahmet Özdemir
                 <Hand />
             </h1>
-            <h3 className="home__subtitle">Jr. Front-end Developer</h3>
+            <h3 className="home__subtitle">Front-end Developer</h3>
             <p className="home__description">Hi, I'm Sadık Ahmet Özdemir. <br /> A passionate Front-end Developer based in Türkiye, Istanbul</p>
 
             <a href="#contact" className="button button--flex">
